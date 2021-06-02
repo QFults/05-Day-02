@@ -1,6 +1,6 @@
 const movies = ['Goodfellas', 'The Room', 'movie3']
 
-let dog = {
+const dog = {
   name: 'Beef',
   age: 2,
   breed: 'Chihuahua'
