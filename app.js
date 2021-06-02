@@ -1,4 +1,5 @@
 // const fs = require('fs')
-const person = require('./person.js')
-
-console.log(person)
+// const person = require('./person.js')
+// console.log(person)
+const { movies } = require('./movies.js')
+movies.forEach((movie, i) => console.log(`#${i + 1}: ${movie}`))
